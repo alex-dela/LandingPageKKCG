@@ -1,0 +1,131 @@
+/* Feuille de style CSS - Landing Page Kyokushin Karate Club de Goderville */
+
+
+/* @@@ COMMUNS */
+header, body, footer{
+    font-family: 'Spartan', sans-serif;
+}
+#club, #instructeurs, .card-cours, .card-shop{
+    background-color: #D6D3C0;
+}
+#cours, .card-instructeurs{
+    background-color: #fff;
+}
+.btn{
+    background-color: #C84D47;
+    border: #D6D3C0 solid 2px;
+    color:#D6D3C0;
+    transition: transform .2s; /* Animation */
+}
+.btn:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    color:#D6D3C0;
+}
+h1{
+    font-size: 7em;
+    font-weight: 600;
+}     
+h2{
+    margin-top: 50px;
+    font-size: 4em;
+    font-weight: 600;
+}
+h3{
+    font-weight: 600;
+}
+p{
+    font-size: 0.8em;
+}
+/* @@@ SECTION ACCUEIL */
+/* Circle svg */
+.circle{
+    z-index: 1;
+    width: 90%;
+}
+/* Div Kareteka-girl */
+.div-img{
+    z-index: 2;
+}
+.karate-girl {
+    max-width: auto;
+    height: auto;
+    width:auto;
+}
+/* Div Osu et paragraphe */
+.div-text{
+    z-index: 3;
+}
+
+/* @@@ SECTION CLUB */
+
+.p-club{
+    font-size: 2em;
+}
+/* .kanji{
+    max-width: auto;
+    height: auto;
+    width:auto;
+} */
+
+/* @@@ SECTION COURS */
+
+
+
+/* @@@ SECTION SHOP */
+.etiquette{
+    background-color: #C84D47;
+}
+.p-tag{
+    color:#D6D3C0;
+}
+.p-tag-sm{
+    color:#D6D3C0;
+    font-size: 0.8em;
+}
+.hr-shop{
+    border: 1px solid #D6D3C0;
+}
+a, a:visited{
+    text-decoration: none;
+}
+
+/* @@@ SECTION CONTACT ET MAP */
+.mapouter, .gmap_canvas, #gmap_canvas{
+    height:300px;
+    width:100%;
+    margin:0;
+    padding:0;
+}
+.mapouter{
+    position:relative;
+    text-align:right;
+    margin:0;
+    padding:0;
+}
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    margin:0;
+    padding:0;
+}
+#contact, #footer {
+    background-color: #1D1D1B;
+}
+.coordonnees, .contact{
+    color:#D6D3C0;
+    border: 2px solid #D6D3C0;
+    padding: 20px;
+    margin: 20px;
+}
+/* @@@ SECTION NEWSLETTER */
+#newsletter{
+    background-image:url("../img/masoyama.jpg");
+    background-size:100%;
+    background-repeat: no-repeat;
+    filter:brightness(60%);
+}
+footer{
+    height:200px;
+    
+}
+

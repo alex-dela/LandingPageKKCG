@@ -1,0 +1,378 @@
+<!doctype html>
+<html lang="fr">
+<html dir="ltr"></html>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Kyokushin Karate Club de Goderville">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@400;600&display=swap" rel="stylesheet">
+
+    <title>Kyokushin Karate Club de Goderville</title>
+  </head>
+  <body>
+  <header>
+      <!-- Ajout marge 4 a gauche du logo, border-0 burger, ms-auto pour alignement droit 
+    REFAIRE LA NAVBAR AVEC LES ROW/COL-->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+              <a class="navbar-brand" href="#"><img src="assets/img/logo_rouge.svg" alt="Logo du Kyokushin Karate Club de Goderville" width="80" height="80" class="d-inline-block align-text-top"></a>
+              <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item ms-5">
+                    <a class="nav-link" href="#club">Club</a>
+                  </li>
+                  <li class="nav-item ms-5">
+                    <a class="nav-link" href="#cours">Cours</a>
+                  </li>
+                  <li class="nav-item ms-5">
+                    <a class="nav-link" href="#instructeurs">Instructeurs</a>
+                  </li>
+                  <li class="nav-item ms-5">
+                    <a class="nav-link" href="#boutique">Boutique</a>
+                  </li>
+                  <li class="nav-item ms-5">
+                    <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+                <!-- @@@ SELECT LANGUES -->
+                  <li class="nav-item dropdown ms-5">
+                      <a class="nav-link dropdown-toggle" href="" id="dropdown09" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">FR</a>
+                      <div class="dropdown-menu" aria-labelledby="dropdown09">
+                            <a class="dropdown-item" href="#fr">FR</a>
+                            <a class="dropdown-item" href="#eng">ENG</a>
+                      </div>
+                  </li>
+                </ul>
+                <!-- @@@ SELECT LANGUES FIN -->
+          </nav>
+  </header>
+<!-- @@@ SECTION ACCUEIL -->
+      <!-- <section class="container-fluid m-5 border">
+          <div class="row my-5">
+              
+            <div class="col-md-6 col-12 border">
+                <div class="border"><img src="assets/img/karate-girl.png" class="col-md-5 img-fluid position-absolute" alt="Femme Karateka faisant un mouvement de saut d'art martial"></div>
+                <div class="circle"></div>
+            </div>
+
+            <div class="col-md-6 col-12 border">
+                <h1 class="text-start">OSU</h1>
+                <p class="text-start fs-5">Bienvenue sur le site du Kyokushin Karate Club de Goderville</p>
+            </div>
+            
+          </div>
+        
+      </section> -->
+<main>
+    <section class="container-fluid mb-5 position-relative">
+        <div class="row">
+            
+          <div class="col-md-6 offset-md-1 col-12 position-relative">
+                <!-- Karate-girl -->
+                <div class="div-img text-center position-absolute"><img src="assets/img/karate-girl.png" class="w-50 karate-girl " alt="Femme Karateka faisant un mouvement de saut d'art martial">
+                </div>
+                <!-- Cercle beige -->
+                <div class="container-fluid position-relative p-4"><img src="assets/img/circle.svg" class="circle" alt="circle">
+                </div>
+          </div>
+
+          <div class="col-md-4 col-8 align-self-center">
+              <h1 class="text-start">OSU</h1>
+              <p class="text-start fs-5">Bienvenue sur le site du <br>Kyokushin Karate Club de Goderville</p>
+              <button type="button" class="btn rounded-pill" data-toggle="modal" data-target="#video">Regarder la vidéo</button>
+          </div>
+        
+        </div>
+    </section>
+  
+<!-- @@@ SECTION NOTRE CLUB -->
+    <section class="container-fluid" id="club">
+      <div class="row">
+        <div class="col-md-6 offset-md-1 col-12">
+          <div class="row">
+              <div class="col-md-8 col-12">
+                <h2 class="text-start">Notre club</h2>
+                <p class="text-start fs-6 mt-5 p-club">
+                Le Kyokushinkai a été créé part Maître Masutatsu Oyama qui a suivi l’enseignement des plus grands parmi lesquels Ô Sensei Funakoshi Gichin. Le style Japonais (Gojû Ryu et Shotokan) lui inspire les techniques de poing, le travail respiratoire, les mouvements linéaires ; les formes circulaires viennent du Taikiken de Maître Kenichi Sawai, mais il a aussi puisé dans les arts martiaux Chinois et Coréens anciens avant de faire sa propre synthèse basée sur ses recherches et sensations personnelles.
+                </p>
+                <p class="text-start fs-6 mt-5 p-club">
+                Le Kyokushin Karaté Club de Goderville a été crée en 1994, par Roger VICAIRE et François VALLEE, au début le club n’avait que des cours adultes. C’est en 1998 que la section enfants verra le jour, elle aura pour effet de doubler les effectifs du club, à partir de ce moment le club ne cessera de grandir, pour atteindre en 2002 son apogée avec 94 adhérents, aujourd’hui le club compte environ 80 licenciés.
+                </p>
+              </div>
+                <div class="col-md-4 Col-12">
+                  <img src="assets/img/kanji.svg" class="img-fluid align-self-center">
+                </div>
+                </div>
+        </div>
+
+        <div class="col-md-4 col-8">
+          <img src="assets/img/img-club.jpg" class="img-fluid" alt="L'instructeur de Karate devant ses élèves dans le dojo">
+            <p class="text-start fs-6"></p>
+        </div>
+        
+      </div>
+  </section>
+
+  <!-- @@@ SECTION NOS COURS -->
+  <section class="container-fluid" id="cours">
+    <div class="row">
+      <div class="col-md-12 col-12">
+        <h2 class="text-center">Nos cours</h2>
+        </div>
+      </div>
+        <div class="row">
+<!-- col-md-4 col-12 card-cours border -->
+          <div class="col-md-3 col-12 card-cours m-4 rounded">
+            <h3 class="text-center p-4">Enfants</h3>
+            <p class="text-center p-3">A partir de 6 ans jusqu’à 14 ans<p>
+            <p class="p-3">Le Karaté pour les enfants présente de 
+              nombreux bienfaits. Il se distingue par 
+              l’enseignement des attitudes positives, de la 
+              discipline et des valeurs jusqu’au 
+              développement de leur estime de soi, de la 
+              tolérance, de la patience et de la 
+              responsabilité.</p>
+            <p class="text-center p-2 align-text-bottom">Lundi et Jeudi<br> 18h00 à 19h00</p>
+          </div>
+  
+          <div class="col-md-3 col-12 card-cours m-4 rounded">
+            <h3 class="text-center p-4">Adultes</h3>
+            <p class="text-center p-3">A partir de  15 ans<p>
+            <p class="p-3">Renforce les muscles et les articulations. Bénéfique pour le rythme cardiaque et la respiration, améliore la coordination et développe le contrôle et la confiance en soi.
+            </p>
+            <p class="text-center">Lundi et Jeudi<br> 19h00 à 20h30</p>
+            <h3 class="text-center pt-4">Préparation Ceinture noire</h3>
+            <span><p class="text-center align-text-bottom">Mardi 18h30 à 20h00
+              et Dimanche de 10h00 à 12h00<p></span>
+          </div>
+
+          <div class="col-md-3 col-12 card-cours m-4 rounded">
+            <h3 class="text-center p-4">Santé / Senior+</h3>
+            <p class="text-center p-3"><p>
+            <p class="p-3">Renforce les muscles et les articulations. Bénéfique pour le rythme cardiaque et la respiration, améliore la coordination et développe le contrôle et la confiance en soi.
+            </p>
+            <p class="text-center p-2">Lundi et Jeudi<br> 19h00 à 20h30</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 col-12">
+            <button type="button" class="btn rounded-pill mb-3 mx-auto d-block" data-toggle="modal" data-target="#inscription">Nous rejoindre</button>
+            </div>
+        </div>
+  </section>
+        <!-- @@@ SECTION NOS INSTRUCTEURS -->
+  <section class="container-fluid" id="instructeurs">
+    <div class="row">
+      <div class="col-md-12 col-12">
+        <h2 class="text-center">Nos instructeurs</h2>
+        </div>
+      </div>
+
+        <div class="row">
+          
+          <div class="col-md-3 col-12 card-instructeurs m-4 rounded">
+            <img src="assets/img/marc-lepage.png" class="w-50 mx-auto d-block">
+            <h3 class="text-center">Marc LEPAGE</h3>
+            <p class="text-center">Section Enfants<p>
+              <hr class="px-3">
+              <p class="text-center">Ceinture Noire 3ème Dan FFKAMA</p>
+              <p class="text-center">Vice-Président</p>
+              <p class="text-center">Diplôme d’Instructeur Fédéral</p>
+              <p class="text-center">Juge Européen</p>
+              <button type="button" class="btn rounded-pill mx-auto d-block my-3" data-toggle="modal" data-target="#contact">Contact</button>
+          </div>
+  <!-- col-md-4 col-12 card-instructeurs sans marge et sans rounded -->
+          <div class="col-md-3 col-12 card-instructeurs m-4 rounded">
+            <img src="assets/img/francois-vallee.png" class="w-50 mx-auto d-block">
+            <h3 class="text-center">François VALLEE</h3>
+            <p class="text-center">Section Adultes<p>
+              <hr class="px-3">
+              <p class="text-center">Ceinture Noire 5ème Dan FFKAMA</p>
+              <p class="text-center">BEES 1er Degré Karaté & Arts Martiaux affinitaires</p>
+              <p class="text-center">DEJEPS Niv. 3 Karaté Perfectionnement sportif</p>
+              <p class="text-center">Diplôme d'Instructeur Fédéral</p>
+              <button type="button" class="btn rounded-pill mx-auto d-block my-3" data-toggle="modal" data-target="#contact">Contact</button>
+          </div>
+
+          <div class="col-md-3 col-12 card-instructeurs m-4 rounded">
+            <img src="assets/img/christelle-perrioz.png" class="w-50 mx-auto d-block">
+            <h3 class="text-center">Christelle PERRIOZ</h3>
+            <p class="text-center">Section Santé / Senior+<p>
+              <hr class="px-3">
+              <p class="text-center">Ceinture Noire 2ème Dan FFKAMA</p>
+              <p class="text-center">Secrétaire du club</p>
+              <p class="text-center">Diplôme d'Instructeur Fédéral</p>
+              <p class="text-center">Juge National</p>
+              <button type="button" class="btn rounded-pill mx-auto d-block my-3" data-toggle="modal" data-target="#contact">Contact</button>
+          </div>
+        </div>
+  </section>
+
+<!-- @@@ SECTION VISITEZ NOTRE BOUTIQUE -->
+<section class="container-fluid vh-100" id="boutique">
+  <div class="row">
+    <div class="col-md-12 col-12">
+      <h2 class="text-center">Visitez notre boutique</h2>
+      <p class="text-center p-3">Equipez-vous pour les cours et portez les couleurs du club.</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <a href="#boutique">  
+      <div class="col-md-2 col-12 card-shop m-4 p-0 rounded">
+        <img src="assets/img/hoodie.png" class="w-100 mx-auto d-block">
+        <div class="etiquette m-0 p-1 rounded-bottom">
+          <p class="p-tag text-center m-1">Hoodie</p>
+          <p class="p-tag-sm text-center m-1">Noir Budo</p>
+          <hr class="m-1 hr-shop">
+          <p class="p-tag text-center m-1">60,00 €</p>
+        </div>
+      </a>
+      </div>
+      
+    
+      <div class="col-md-2 col-12 card-shop m-4 p-0 rounded">
+        <a href="#boutique"><img src="assets/img/hoodie.png" class="w-100 mx-auto d-block"></a>
+        <div class="etiquette m-0 p-1 rounded-bottom">
+          <p class="p-tag text-center m-1">Sweatpant</p>
+          <p class="p-tag-sm text-center m-1">Noir Budo</p>
+          <hr class="m-1 hr-shop">
+          <p class="p-tag text-center m-1">25,00 €</p>
+        </div>
+      </a>
+      </div>
+      
+    
+      <div class="col-md-2 col-12 card-shop m-4 p-0 rounded">
+        <a href="#boutique"><img src="assets/img/hoodie.png" class="w-100 mx-auto d-block"></a>
+        <div class="etiquette m-0 p-1 rounded-bottom">
+          <p class="p-tag text-center m-1">T-shirt</p>
+          <p class="p-tag-sm text-center m-1">Rouge Shuri</p>
+          <hr class="m-1 hr-shop">
+          <p class="p-tag text-center m-1">15,00 €</p>
+        </div>
+        </a>
+      </div>
+    
+      <div class="row">
+        <div class="col-md-12 col-12">
+          <button type="button" class="btn rounded-pill mb-3 mx-auto d-block" data-toggle="" data-target="#boutique">La boutique</button>
+          </div>
+      </div>
+<!-- @@@ SECTION CONTACT -->
+<section class="container-fluid vh-100" id="contact">
+  <div class="row">
+    <div class="col-md-12 col-12 m-0 p-0">
+      <div class="mapouter">
+        <div class="gmap_canvas">
+            <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=Gymnase,%20Rue%20du%20Ham.%20Martin,%2076110%20Goderville&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+            </iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row"> 
+    <div class="col-md-4 offset-md-3 col-12 coordonnees m-4 rounded">
+      <h3 class="text-center">Coordonnées</h3>
+      <hr>
+        <p class="text-center">Dojo</p>
+        <p class="text-center">Rue du Hameau Martin</p>
+        <p class="text-center">76110 Goderville</p>
+        <button type="button" class="btn rounded-pill mb-3 mx-auto d-block" data-toggle="" data-target="#boutique">S'y rendre</button>
+    </div>
+    
+    <div class="col-md-4 offset-md-3 col-12 contact m-4 rounded">
+      <h3 class="text-center">Contact</h3>
+      <hr>
+        <p class="text-center">karatekyokushin@aol.com</p>
+        <p class="text-center">06 19 91 30 33</p>
+        <button type="button" class="btn rounded-pill mb-3 mx-auto d-block" data-toggle="" data-target="#boutique">Nous écrire</button>
+    </div>
+  </div>  
+</section>
+
+<!-- @@@ SECTION NEWSLETTER -->
+<section class="container-fluid vh-100" id="newsletter">
+  <div class="row">
+    <div class="col-md-12 col-12">
+      <h2 class="text-center text-white">Suivez nos actualités</h2>
+      <p class="text-center text-white p-3">Restez informé sur nos évènements, les compétitions ou la vie du club en vous abonnant à la newsletter.</p>
+<!-- FORM NEWSLETTER -->
+      <form>
+        <div class="form-group">
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Saisissez votre adresse mail">
+        </div>
+        <button type="submit" class="btn rounded-pill mb-3 mx-auto d-block">S'abonner</button>
+      </form>
+      </div>
+    </div>
+
+<!-- @@@ SECTION FOOTER -->
+<FOoter>
+<section class="container-fluid fixed-bottom" id="footer">
+    <div class="row">
+      <div class="col-md-3 col-12 m-4 align-self-center">
+        <h3 class="text-white">Contact</h3>
+        <p class="text-start text-white">karatekyokushin@aol.com</p>
+        <p class="text-start text-white">06 19 91 30 33</p>
+    </div>
+
+        <div class="col-md-3 col-12 m-4">
+          <img src="assets/img/logo.svg" class="w-50 mx-auto d-block" alt="Logo du Kyokushin Karate Club de Goderville">
+      </div>
+     
+    <div class="col-md-3 col-12 m-4 align-self-center">
+      <p class="text-start text-white p-4">Mentions Légales</p>
+  </div>
+    </div>
+</section>
+</FOoter>
+
+
+    <!-- <footer class="container-fluid fixed-bottom">
+      <div class="row">
+        <div class="col-md-4 col-12">
+          <a href class="text-start text-white">Mentions Légales<a>
+  
+        </div>
+        <div class="col-md-4 col-12">
+          <a href class="text-center text-white">Mentions Légales<a>
+  
+        </div>
+
+        <div class="col-md-4 col-12">
+          <a href class="text-end text-white">Mentions Légales<a>
+  
+        </div>
+
+
+    </footer> -->
+
+</main>
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
