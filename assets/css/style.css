@@ -36,6 +36,9 @@ h3{
 p{
     font-size: 0.8em;
 }
+.dropdown-menu{
+    min-width: 0;
+}
 /* @@@ SECTION ACCUEIL */
 /* Circle svg */
 .circle{
@@ -57,20 +60,41 @@ p{
 }
 
 /* @@@ SECTION CLUB */
-
 .p-club{
-    font-size: 2em;
+    font-size: 1em;
 }
-/* .kanji{
-    max-width: auto;
-    height: auto;
-    width:auto;
-} */
+.img-club{
+    position: absolute;
+    top: 0;
+    right:0;
+    background: url(../img/img-club.png);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+    overflow: hidden;
+ }
 
 /* @@@ SECTION COURS */
-
-
-
+.cours-enfants{
+    background-image: url(../img/karate-enfant.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center;
+}
+.cours-adultes{
+    background-image: url(../img/karate-adulte.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center;
+}
+.cours-sante{
+    background-image: url(../img/karate-sante.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size:contain;
+    background-position: center;
+}
 /* @@@ SECTION SHOP */
 .etiquette{
     background-color: #C84D47;
@@ -107,8 +131,13 @@ a, a:visited{
     background:none!important;
     margin:0;
     padding:0;
+    border:0;
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+ */
+    filter: gray; /* IE6-9 */
+	  -webkit-filter: grayscale(99%); /* Chrome 19+ & Safari 6+ */
+	  -webkit-backface-visibility: hidden;  /* Fix for transition flickering */
 }
-#contact, #footer {
+#contact {
     background-color: #1D1D1B;
 }
 .coordonnees, .contact{
@@ -119,13 +148,44 @@ a, a:visited{
 }
 /* @@@ SECTION NEWSLETTER */
 #newsletter{
-    background-image:url("../img/masoyama.jpg");
     background-size:100%;
     background-repeat: no-repeat;
-    filter:brightness(60%);
+    filter:brightness(100%);
+}
+.kanji-pattern, footer{
+background-image: url(../img/kanji-pattern.gif);
 }
 footer{
-    height:200px;
-    
+    max-height:200px;
 }
-
+.module {
+    position: relative;
+    z-index: -1;
+  }
+.module::before {
+    content: "";
+    position: absolute;
+    top: 0px; left: 0; bottom:0px;
+    width: 100%; height: 100%;
+    background-image: url("../img/masoyama.jpg");
+    background-size:100%;
+    background-repeat: no-repeat;
+    filter: grayscale(100%);
+    filter:brightness(50%);
+}
+.module-inside {
+    /* This will make it stack on top of the ::before */
+    position: relative;
+}
+/* TOP BUTTON */
+#myBtn {
+    display: none;  
+    position: fixed; 
+    bottom: 40px; 
+    right: 10px; 
+    z-index: 99; 
+    border: none; 
+    padding: 15px; 
+    border-radius: 10px; 
+    cursor: pointer;
+}
